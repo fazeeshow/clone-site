@@ -355,3 +355,338 @@ border-radius: 20px;
   padding: 100px 70px 0px 70px;
 
 }
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+ /* body{
+  overflow: hidden;
+ } */
+  
+  .header{
+    display: flex;
+      justify-content: space-evenly;
+      gap: 2px;
+      background-color: #F12D2D;
+      color: white;
+      padding-top: 20px;
+  }
+  .header a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+   
+  }
+  .main-menu{
+    display: flex;
+    
+    padding-right: 100px;
+  }
+  .brand-name{
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .header button{
+    position: absolute;
+    right: 223px;
+    top: 80px;
+    width:180px;
+    height: 40px;
+    border-style: none;
+    border-radius: 30px;
+    background-color: #2B83BE;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .main-container-front-page{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #F12D2D;
+  
+  padding-top: 130px;
+  
+  }
+  .left-side-main-container{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding-left: 12px;
+  padding-bottom: 150px;
+  
+  
+  }
+  .left-side-main-container h2{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 1px;
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: 1px;
+    
+  }
+  .left-side-main-container h1{
+    color: white;
+    font-size: 30px;
+    line-height: 1;
+    
+  }
+  .left-side-main-container button{
+    width: 200px;
+    height: 55px;
+    border-style: none;
+    border-radius: 30px;
+    background-color: #2B83BE;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: -10px;
+  }
+  
+  .right-side-main-container img{
+    width: 80%;
+    height: auto;
+    display: flex;
+    
+  }
+
+  /* second section */
+  
+  .second-section-heading {
+    font-size: 10px;
+    margin-bottom: -20px;
+
+  }
+
+  .second-section-bottom {
+    margin: 10px;
+    gap: 15px;
+    margin-top: 50px;
+  }
+  .second-section-bottom p{
+    font-size: 8px;
+  }
+
+  .second-section-imagebox-1,
+  .second-section-imagebox-2,
+  .second-section-imagebox-3 {
+    width: 100%;
+    padding: 15px;
+    background-size: 30%;
+  }
+/* third section */
+
+
+
+      .third-section{
+        display: flex;
+        
+      }
+      .left-third-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 0 0 20px;
+        
+      }
+      .left-third-section h2{
+        margin-bottom: -25px;
+        color: #F12D2D;
+        font-size: 20px;
+      }
+      .left-third-section h1{
+        font-size: 30px;
+      }
+      .left-section-grid-section{
+      
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 0px;
+        
+      }
+      .left-section-grid-section p{
+        display: inline;
+        margin-left: 2px;
+        font-size: 5px;
+        margin-right: 12px;
+      }
+      .left-section-grid-section img{
+        position: relative;
+        top: 10px;
+        margin-top: 15px;
+      }
+      .right-third-section img{
+        width: 10px;
+      }
+  .third-section button{
+    width: 200px;
+    height: 55px;
+    border-style: none;
+    border-radius: 30px;
+    background-color: #F12D2D;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+    
+  }
+  .fourth-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .counter{
+    display: flex;
+    gap: 80px;
+    font-size: 2rem;
+  
+  
+  }
+  .c1::after {
+    font: 800 40px system-ui;
+    content: counter(count);
+    animation: counter 5s linear infinite alternate;
+    counter-reset: count 0;
+  }
+  
+  @keyframes counter {
+    0% {
+      counter-increment: count 0;
+    }
+    10% {
+      counter-increment: count 1;
+    }
+    20% {
+      counter-increment: count 2;
+    }
+    30% {
+      counter-increment: count 3;
+    }
+    40% {
+      counter-increment: count 4;
+    }
+    50% {
+      counter-increment: count 5;
+    }
+    60% {
+      counter-increment: count 6;
+    }
+  
+  }
+  .fourth-section button{
+    width: 240px;
+    height: 55px;
+    border-style: none;
+    border-radius: 30px;
+    background-color: #F12D2D;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+  }
+  .fourth-section h2{
+    margin-bottom: -18px;
+    
+  }
+  .fourth-section h1{
+    margin-bottom: 50px;
+  }
+  .left-fourth-section img{
+    width: 1px;
+  }
+  .right-fourth-section h2{
+    color: #F12D2D;
+  }
+  
+  .fifth-section{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+  }
+  .fifth-section h2{
+    margin-bottom: -18px;
+    color: #F12D2D;
+  }
+  .top-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  .bottom-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+  }
+  .image{
+    background-color: #FBEFEF;
+    padding: 70px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 10px rebeccapurple;
+    text-align: center;
+    height: 300px;
+    margin-bottom: 50px;
+
+  }
+  .image img{
+    height: 200px;
+  }
+  .last-section{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+  
+  }
+  .left-last-section{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 60px;
+    margin-left: 2px;
+   
+  
+  }
+  .left-last-section input{
+    width: 300px;
+    height: 30px;
+    border-color: rgb(184, 180, 174);
+    border-radius: 7px;
+    margin-top: 8px;
+   
+  }
+  .last-section button{
+    width: auto;
+    height: 49px;
+    border-style: none;
+    border-radius: 30px;
+    background-color: #3a3434;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-top: 10px;
+  }
+  .last-section img{
+    width: 1px;
+    margin-left: 1px;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    background-color: #F12D2D;
+    color: white;
+    font-size: 10px;
+    padding: 10px 10px 0px 10px;
+    margin: 10px;
+    margin-top: 50px;
+  }
+
+}
